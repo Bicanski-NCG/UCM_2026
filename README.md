@@ -12,23 +12,23 @@ Code was run and developed with Python. 3.12
 
 To run the code without changes, create the following folder structure:
 
-datasets/oasis/ExpData (this is where the real data goes)
-datasets/oasis/
-datasets/oasis/data_grids
-datasets/oasis/NM
-datasets/oasis/NM/Noise1,2,3
-datasets/birds/
-GCmaps/
-NAVwts/
+datasets/oasis/ExpData (this is where the real data goes)  
+datasets/oasis/  
+datasets/oasis/data_grids  
+datasets/oasis/NM  
+datasets/oasis/NM/Noise1,2,3  
+datasets/birds/  
+GCmaps/  
+NAVwts/  
 
 NM folder holds the data for repeated runs with N anchor pairs, run for M iterations each (Figure 3 last panel in the paper). takes a while.
 
 Everything can be run from python notebooks. 
 
-Paper order: 
-UCM_oasis
-UCM_oasis_noise
-Makebirds etc
-UCM_birds
-UCM_reasoning
-UCM_magnitude_detect
+Paper order:   
+UCM_oasis  
+UCM_oasis_noise  
+Makebirds etc  
+UCM_birds  
+UCM_reasoning  
+UCM_magnitude_detect  
